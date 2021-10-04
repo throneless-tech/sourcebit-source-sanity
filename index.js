@@ -99,6 +99,12 @@ module.exports.options = {
     },
     listenerReconnectTimer: {
         default: 1000 * 60 * 20
+    },
+    serializers: {
+        marks: {
+            annotations: [],
+        },
+        types: {},
     }
 };
 
