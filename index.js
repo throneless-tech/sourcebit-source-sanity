@@ -101,17 +101,10 @@ module.exports.options = {
         default: 1000 * 60 * 20
     },
     serializers: {
-        default: {},
-        marks: {
-            default: {
-                annotations: {
-                    default: [],
-                },
-            }
-        },
-        types: {
-            default: {},
-        },
+        default: {
+            marks: {},
+            types: {}
+        }
     }
 };
 
